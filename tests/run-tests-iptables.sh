@@ -44,8 +44,8 @@ else
 fi
 
 
-test_results="test_results_"$(date +%Y%m%d_%H%M%S)
-test_log="test_log_"$(date +%Y%m%d_%H%M%S)
+test_results="test_results_iptables_"$(date +%Y%m%d_%H%M%S)
+test_log="test_log_iptables_"$(date +%Y%m%d_%H%M%S)
 test_tmp="tmp"
 
 echo "Tests Scripts" > $test_results
